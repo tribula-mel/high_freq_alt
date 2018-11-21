@@ -44,24 +44,25 @@ module holes( offset=5, step=[0: 90: 360], d=0, h=0 ) {
     }
 }
 
-// Rotor Definition
-difference() {
+union() {
+ // Rotor Definition
+ difference() {
     cylinder( h=5, d=r_out_diameter, center=true );
     grooves( r_out_diameter, magnet_step, magnet_size );
     cylinder( h=5, d=r_in_diameter, center=true );
-}
+ }
 
-// Stator Definition
-difference() {
+ // Stator Definition
+ difference() {
     cylinder( h=5, d=s_out_diameter, center=true );
     grooves( s_in_diameter, coil_step, coil_grooves );
     rotate(3.7) grooves( s_in_diameter, coil_step, coil_grooves );
     cylinder( h=5, d=s_in_diameter, center=true );
     holes( 13.8, [0: 90: 360], d=0.4, h=6 );
-}
+ }
 
-// Rotor's spokes
-difference() {
+ // Rotor's spokes
+ difference() {
     union() {
         cube( size=[0.5,38.9,3], center=true );
         rotate( 120 ) cube( size=[0.5,38.9,3], center=true );
@@ -71,4 +72,5 @@ difference() {
     cylinder( h=5, d=0.6, center=true );
     cube( size=[1.4,0.2,5], center=true );
     rotate(90) cube( size=[1.4,0.2,5], center=true );
+ }
 }
