@@ -27,9 +27,9 @@ union() {
 
  difference() {
   union() {
-    translate( [0, 0, 1.0]) cube( size = [40, 2, 1], center=true );
-    translate( [0, 0, 1.0]) rotate(60) cube( size = [40, 2, 1], center=true );
-    translate( [0, 0, 1.0]) rotate(120) cube( size = [40, 2, 1], center=true );
+    translate( [0, 0, 1.0]) cube( size = [40.1, 2, 1], center=true );
+    translate( [0, 0, 1.0]) rotate(60) cube( size = [40.1, 2, 1], center=true );
+    translate( [0, 0, 1.0]) rotate(120) cube( size = [40.1, 2, 1], center=true );
     // outer shell for the bearing
     cylinder( h=1, d=4, center=true );
   }
