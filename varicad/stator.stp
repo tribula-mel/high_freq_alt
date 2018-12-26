@@ -7,7 +7,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'stator.stp',
-/* time_stamp */ '2018-12-20T20:41:06-05:00',
+/* time_stamp */ '2018-12-26T12:40:27-05:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'VariCAD 2019-1.04',
@@ -1754,7 +1754,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP()
 #1724=PRODUCT_DEFINITION_CONTEXT('part definition',#1732,'');
 #1725=PRODUCT_DEFINITION_CONTEXT('part definition',#1733,'');
 #1726=PRODUCT('stator','stator','not specified',(#1728));
-#1727=PRODUCT('','','not specified',(#1729));
+#1727=PRODUCT('Stator','Stator','not specified',(#1729));
 #1728=PRODUCT_CONTEXT('',#1732,'mechanical');
 #1729=PRODUCT_CONTEXT('',#1733,'mechanical');
 #1730=APPLICATION_PROTOCOL_DEFINITION('Draft International Standard',
@@ -1764,7 +1764,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP()
 #1732=APPLICATION_CONTEXT('automotive design');
 #1733=APPLICATION_CONTEXT('automotive design');
 #1734=SHAPE_REPRESENTATION('stator',(#1736,#1907),#2912);
-#1735=SHAPE_REPRESENTATION('',(#1737),#2913);
+#1735=SHAPE_REPRESENTATION('Stator',(#1737),#2913);
 #1736=AXIS2_PLACEMENT_3D('',#2414,#1908,#1909);
 #1737=AXIS2_PLACEMENT_3D('',#2415,#1910,#1911);
 #1738=AXIS2_PLACEMENT_3D('',#2583,#1915,#1916);
