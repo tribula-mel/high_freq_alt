@@ -7,7 +7,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'rotor.stp',
-/* time_stamp */ '2018-12-22T23:11:10-05:00',
+/* time_stamp */ '2018-12-26T12:39:54-05:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'VariCAD 2019-1.04',
@@ -1693,7 +1693,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP()
 #1664=PRODUCT_DEFINITION_CONTEXT('part definition',#1672,'');
 #1665=PRODUCT_DEFINITION_CONTEXT('part definition',#1673,'');
 #1666=PRODUCT('rotor','rotor','not specified',(#1668));
-#1667=PRODUCT('','','not specified',(#1669));
+#1667=PRODUCT('Rotor','Rotor','not specified',(#1669));
 #1668=PRODUCT_CONTEXT('',#1672,'mechanical');
 #1669=PRODUCT_CONTEXT('',#1673,'mechanical');
 #1670=APPLICATION_PROTOCOL_DEFINITION('Draft International Standard',
@@ -1703,7 +1703,7 @@ SHAPE_REPRESENTATION_RELATIONSHIP()
 #1672=APPLICATION_CONTEXT('automotive design');
 #1673=APPLICATION_CONTEXT('automotive design');
 #1674=SHAPE_REPRESENTATION('rotor',(#1676,#1813),#2752);
-#1675=SHAPE_REPRESENTATION('',(#1677),#2753);
+#1675=SHAPE_REPRESENTATION('Rotor',(#1677),#2753);
 #1676=AXIS2_PLACEMENT_3D('',#2272,#1814,#1815);
 #1677=AXIS2_PLACEMENT_3D('',#2273,#1816,#1817);
 #1678=AXIS2_PLACEMENT_3D('',#2446,#1830,#1831);
